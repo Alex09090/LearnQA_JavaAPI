@@ -5,12 +5,6 @@ import io.restassured.response.Response;
 
 
 public class HelloWorld {
-
-    @Test
-    public void testHelloWorld() {
-        System.out.println("Hello, Александр");
-    }
-
     @Test
     public void testGetText() {
         Response response = RestAssured
